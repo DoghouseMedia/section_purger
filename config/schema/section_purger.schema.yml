@@ -46,7 +46,7 @@ section_purger.settings.*:
     password:
       type: key_select
       translatable: false
-    request_method:
+    requestMethod:
       type: string
       translatable: false
     scheme:
@@ -74,32 +74,32 @@ section_purger.settings.*:
     body:
       type: text
       translatable: false
-    body_content_type:
+    bodyContentType:
       type: string
       translatable: false
 
     #
     # Performance settings:
     #
-    runtime_measurement:
+    runtimeMeasurement:
       type: boolean
       translatable: false
     timeout:
       type: float
       translatable: false
-    connect_timeout:
+    connectTimeout:
       type: float
       translatable: false
-    cooldown_time:
+    cooldownTime:
       type: float
       translatable: false
-    max_requests:
+    maxRequests:
       type: integer
       translatable: false
 
     #
     # Success resolution:
     #
-    http_errors:
+    httpErrors:
       type: boolean
       translatable: false
