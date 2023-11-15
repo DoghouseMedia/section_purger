@@ -7,9 +7,4 @@ dependencies:
   - purge:purge_tokens
   - key:key
 
-core_version_requirement: ^8.9 || ^9
-
-# Information added by Drupal.org packaging script on 2023-05-24
-version: '3.0.0-alpha1+2-dev'
-project: 'section_purge'
-datestamp: 1684908853
+core_version_requirement: ^8.9 || ^9 || ^10
